@@ -1,0 +1,34 @@
+.navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #2196F3;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .logo {
+    img {
+      width: 190px;
+    }
+  }
+
+  .links {
+    ul {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+      li {
+        list-style: none;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}

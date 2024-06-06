@@ -1,0 +1,40 @@
+.gallery {
+  margin-top: 7rem;
+
+  .content {
+    text-align: center;
+
+    h1 {
+      font-size: 44px;
+      font-weight: 800;
+      margin: 30px 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(12, 12, 37);
+    }
+
+    h4 {
+      font-size: 22px;
+      font-weight: 800;
+    }
+  }
+
+  .allCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+      width: 350px;
+
+      img {
+        width: 100%;
+        border-radius: 17px;
+        cursor: pointer;
+        object-fit: cover;
+        margin-top: 2rem;
+
+      }
+    }
+  }
+}

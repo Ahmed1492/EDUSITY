@@ -1,0 +1,26 @@
+.offers {
+
+  h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 47px;
+    font-weight: 700;
+  }
+
+  .allCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+      margin: auto;
+      margin-top: 2rem;
+
+      img {
+        width: 27rem;
+        cursor: pointer;
+        border-radius: 17px;
+      }
+    }
+  }
+}
