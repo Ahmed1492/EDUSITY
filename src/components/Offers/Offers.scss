@@ -7,19 +7,52 @@
     font-weight: 700;
   }
 
+
   .allCards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
     .card {
-      margin: auto;
+      // margin: auto;
       margin-top: 2rem;
+      position: relative;
+      cursor: pointer;
+      // height: 100%;
+
+
+      .caption {
+        position: absolute;
+        background-color: rgba(51, 2, 129, .5);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 600;
+        opacity: 0;
+        transition: all .5s;
+        border-radius: 17px;
+        cursor: default;
+
+
+      }
+
+      &:hover .caption {
+        opacity: 1;
+      }
 
       img {
         width: 27rem;
         cursor: pointer;
+        object-fit: cover;
+        height: 100%;
         border-radius: 17px;
+
       }
     }
   }

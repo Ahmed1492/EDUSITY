@@ -1,3 +1,16 @@
+.transparentNavber {
+  background-color: transparent;
+  transition: all .5s;
+}
+
+.blueColorNavbar {
+  background-color: #00bcd4;
+  transition: all .5s;
+
+
+}
+
+
 .navbar {
   color: #fff;
   display: flex;
@@ -8,7 +21,6 @@
   left: 0;
   right: 0;
   z-index: 10;
-  background-color: #2196F3;
   padding-top: 15px;
   padding-bottom: 15px;
 

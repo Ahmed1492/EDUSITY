@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.scss";
 import NavBarLogo from "../../assets/logo.png";
 export const Navbar = () => {
+  const [isUserSscroll, setIsUserScroll] = useState(false);
+  
+
+  useEffect(() => {
+    window.onscroll = function () {
+      console.log(isUserSscroll);
+      if (window.scrollY > 80) {
+        setIsUserScroll(true);
+      } else {
+        setIsUserScroll(false);
+      }
+    };
+  },[]);
   return (
     <div className="">
-      <div className="navbar container">
+      <div
+        className={`navbar container ${
+          isUserSscroll ? "blueColorNavbar" : "transparentNavber"
+        }`}
+      >
         <div className="logo">
           <img src={NavBarLogo} alt="Logo" />
         </div>
