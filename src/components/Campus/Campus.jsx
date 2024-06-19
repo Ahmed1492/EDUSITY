@@ -25,6 +25,9 @@ export const Campus = () => {
           <img src={Pic4} alt="Pic1" />
         </div>
       </div>
+      <div className="myBtn">
+        <button>Show More Here</button>
+      </div>
     </div>
   );
 };
