@@ -7,7 +7,7 @@ export const Offers = () => {
   const AllCards = [off1, off2, off3];
   return (
     <div className="offers">
-      <h2>What We Offer</h2>
+      {/* <h2>What We Offer</h2> */}
       <div className="allCards container">
         {AllCards.map((card, index) => (
           <div key={index} className="card ">

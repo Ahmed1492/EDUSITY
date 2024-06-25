@@ -7,10 +7,10 @@ import Pic4 from "../../assets/gallery-4.png";
 export const Campus = () => {
   return (
     <div className="gallery container">
-      <div className="content">
+      {/* <div className="content">
         <h4>Gallery</h4>
         <h1>Campus Photo</h1>
-      </div>
+      </div> */}
       <div className="allCards">
         <div className="card">
           <img src={Pic1} alt="Pic1" />

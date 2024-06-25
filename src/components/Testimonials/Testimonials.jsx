@@ -30,10 +30,10 @@ export const Testimonials = () => {
   };
   return (
     <div className="testimonial container">
-      <div className="heading">
+      {/* <div className="heading">
         <h3>Testimonials</h3>
         <h2>What Student Says</h2>
-      </div>
+      </div> */}
       <div className="slider">
         <img
           onClick={handleToBack}

@@ -10,7 +10,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aliceblue;
+  background-color: rgb(170, 177, 184);
+  background-color: #ffffff87;
 }
 
 code {
